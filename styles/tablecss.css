@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(154, 167, 181);
+    color: rgb(206, 220, 238);
+}
+
+table {
+    border-width: 2;
+    border-style: solid;
+    border-color: rgb(22, 110, 126);
+    background-color:  rgb(112, 119, 128);
+}
+td {
+    border-width: 1;
+    border-style: solid;
+    border-color: rgb(22, 110, 126);
+}
