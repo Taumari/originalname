@@ -1,0 +1,27 @@
+body {
+    font-family: 'Comic Sans MS';
+    background-color: rgb(106, 135, 167);
+    color: rgb(53, 53, 53);
+}
+
+table {
+    border-width: 2;
+    border-style: solid;
+    border-color: rgb(10, 161, 187);;
+    background-color:  rgb(153, 165, 182);
+}
+td {
+    border-width: 1;
+    border-style: solid;
+    border-color: rgb(10, 161, 187);
+}
+td.name1 {
+    font-family: 'Comic Sans MS';
+    font-size: xx-large;
+}
+b.b {
+    color: black;
+}
+pre {
+    font-family: 'Comic Sans MS';
+}

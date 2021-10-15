@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../styles/tablecss.css">
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <table height="150" width="100%">
+        <tr>
+            <td width="8%" rowspan="2">
+                <img src="../images/symbol.png" alt="">
+            </td>
+            <td class="name1" rowspan="2">
+                Великий ДИЗАЙН (нет)
+            </td>
+            <td width = 15%>Логин</td>
+        </tr>
+        <tr>
+            <td width = 15%>Пароль</td>
+        </tr>
+        <tr>
+            <td height="33%" width="8%" colspan="3">
+                
+                        <a href="../index.html">Вернуться  на главную страницу</a>  
+                    
+                        <a href="aboutcss.html">CSS оформление</a>  
+                    
+                        <a href="jsscript.html">JS программирование</a> 
+                
+            </td>
+        </tr>
+    </table>
+    <table height="350" width="100%">
+        <tr>
+            <td width="20%">
+                
+            </td>
+            <td width="80%"><iframe width="560" height="315" src="https://www.youtube.com/embed/25pVPMZIwqY" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+                <p>
+                    CSS - это язык оформления HTML-документов. За более подробной информацией
+                     <a href="http://htmlbook.ru/samcss">сюда</a> . 
+                    Так как он является вспомогательным языком, 
+                    то существует несколько основных способов его добавления на web-страницу:
+                </p>
+                <ul>
+                    <li>
+                        Внешний 
+                        <b>
+                            <span style="color: black;">
+                                &lt;link rel="stylesheet" href="style.css">
+                            </span>
+                            </b>
+                       
+                    </li>
+                    <li>
+                        Внутренний глобальный 
+                            <b>
+                            <span style="color: black;">
+                                &lt;style>&lt;/style>
+                            </span>
+                            </b>
+                    </li>
+                    <li>
+                        Внутренний локальный 
+                            <b>
+                            <span style="color: black;">
+                                &lt;span style="color: red">&lt;/span>
+                            </span>
+                            </b> 
+                    </li>
+                </ul>
+                <p>
+                    Синтаксис языка выглядит следующим образом: 
+                    сначала указывается изменяемый элемент с помощью 
+                    <span style="color: rgb(22, 22, 181);" >селектора</span> , 
+                    после этого в фигурных скобках перечисляются через точку с запятой изменяемые свойства элемента 
+                    <span style="color:rgb(0, 109, 76)">(цвет, размер, расположение и т.д.)</span> , затем напротив каждого свойства указывается значение 
+                    (red, left, 1px и т.д.). Например:
+                </p>
+                <pre>
+                    <span style="color:blueviolet"> table</span>  { 
+                        <span style="color:rgb(79, 18, 201)">width:</span> <span style="color:rgb(27, 95, 0)">80%;</span>
+                        <span style="color:rgb(79, 18, 201)">border-color:</span> <span style="color:rgb(27, 95, 0)">white;</span>
+                        <span style="color:rgb(79, 18, 201)">border-style:</span> <span style="color:rgb(27, 95, 0)">groove;</span>
+                        <span style="color:rgb(79, 18, 201)">border-width:</span> <span style="color:rgb(27, 95, 0)">5px;</span>
+                    }
+                </pre>
+                    
+                <p>
+                    В ситуации когда изменить необходимо только некоторые элементы, 
+                    следует пользоваться указателями класса: когда одни и теже теги 
+                    принадлежат разным классам и оформляются по разному.
+                    &lt;table class="header">&lt;/table>
+                    &lt;table class="main">&lt;/table>  
+                </p>
+            </td>
+
+        </tr>
+
+    </table>
+</body>
+</html>
